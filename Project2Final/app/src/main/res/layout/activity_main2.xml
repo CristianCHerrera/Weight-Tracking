@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+<!--Edit text to enter date-->
+<EditText
+    android:id="@+id/enterDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Enter Date: " />
+
+<!--edit text to enter weight-->
+<EditText
+    android:id="@+id/enterWeight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:hint="Enter Weight: " />
+
+
+<!--button for adding new data-->
+<Button
+    android:id="@+id/addData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Add Data"
+    android:textAllCaps="false" />
+
+<Button
+    android:id="@+id/viewData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="View Data"
+    android:textAllCaps="false" />
+
+
+
+</LinearLayout>
